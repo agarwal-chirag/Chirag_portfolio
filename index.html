@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<hea d>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+         <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Chirag_Agarwal</title>
+</head>
+<body>
+    <!--Style Switcher-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+             <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+       </label>
+
+       <h3 class="style__switcher-title">Theme Colors</h3>
+
+       <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+       </div>
+    </div>
+
+    <!--HEADER-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Chirag Agarwal</a>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link active-link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#qualification" class="nav__link active-link">Qualification</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link active-link">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#works" class="nav__link active-link">Work</a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link active-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--MAIN-->
+    <main class="main">
+
+    <!--HOME-->
+    <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__container">
+                <span class="home__small">Hello</span>
+                <h1 class="home__title"><span>I'm</span> Chirag Agarwal <br> <span>a Full Stack Developer</span></h1>
+
+                <p class="home__description">An Engineering Student, pursuing B.Tech in Computer Science and Engineering and have Significant Experience in Software Development and Design process. I have worked on many projects and explore a lot of tech domains. I have worked with some startups to polish my work and enduring the industry experience in my domain</p>
+
+                <div class="home__btn">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="portfolio" class="btn btn--transparent">Portfolio</a>
+                </div>
+            </div>
+            <div class="home__img-wrapper">
+                <img src="img/asset 21.png" alt="" class="home__img">
+            </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__img-wrapper">
+                <img src="img/photo (1).JPG" alt="" class="about__img">
+                <img src="img/photo (1).JPG" alt="" class="about__img">
+                <img src="img/photo (1).JPG" alt="" class="about__img">
+                <img src="img/photo (1).JPG" alt="" class="about__img">
+                
+            </div>
+            <div class="about__content">
+                <h2 class="section__title" data-title="Who am i?">I'm Chirag Agarwal, a visual UI/UX Designer and Web Developer</h2>
+ 
+                <p class="about__description">A versatile UI/UX designer and web developer. I create visually stunning interfaces and engaging digital experiences by combining design principles with front-end development expertise.</p>
+
+                <ul class="about__data grid">
+                    <li class="data__item">
+                        <h3 class="data__title">Name:</h3>
+                        <span class="data__descriprion">Chirag Agarwal</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Age:</h3>
+                        <span class="data__descriprion">21 Year</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">From:</h3>
+                        <span class="data__descriprion">Greater Noida , UP </span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Email:</h3>
+                        <span class="data__descriprion about__link">chiragagarwal01122@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="about__botton">
+                    <a href="" class="btn">Download Cv</a>
+
+                    <div class="about__social-links">
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                        <a href="" class="about__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Qualification-->
+    <section class="qualification section" id = "qualification">
+        <h2 class="section__title title-center" data-title="My Journey">QUALIFICATION / ACHIEVEMENTS</h2>
+
+        <div class="resume__container container grid">
+            <div class="resume__group">
+                <h3 class="resume__heading">Education</h3>
+
+                <div class="resume__items">
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Noida Institute Of Engineering and Technology</h3>
+                            <span class="resume__icon">+</span>
+                        </div>
+
+                        <div class="resume__container">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Bachlore Of Technology</h3>
+                                <span class="resume__data">2020 - 2024</span>
+                            </div>
+
+                            <p class="resume__description">
+                                I am pursuing my Bachelor of Technology degree from Noida Institute of Engineering and Technology, immersing myself in a comprehensive curriculum that equips me with the necessary skills for a successful career in the field of technology.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Santosh International School</h3>
+                            <span class="resume__icon">+</span>
+                        </div>
+
+                        <div class="resume__container">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Intermediate</h3>
+                                <span class="resume__data">2018 - 2020</span>
+                            </div>
+
+                            <p class="resume__description">
+                                I have successfully completed my intermediate education at Santosh International School, where I acquired a strong academic foundation and developed essential life skills, preparing me for the next phase of my educational journey.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="resume__item"> 
+                        <div class="resume__header">
+                            <h3 class="resume__subtitle">Nirmala Convent School</h3>
+                            <span class="resume__icon">+</span>
+                        </div>
+
+                        <div class="resume__container">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">High School</h3>
+                                <span class="resume__data">2018</span>
+                            </div>
+
+                            <p class="resume__description">
+                                I have successfully completed my high school education from Nirmala Convent School, where I received a well-rounded education, fostered lifelong friendships, and developed the skills and knowledge necessary for my future endeavors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+                <div class="resume__group">
+                    <h3 class="resume__heading">Achievement</h3>
+    
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">College-level Hackathon</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+    
+                            <div class="resume__container">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Project Development Sprint, Finalist</h3>
+                                    <span class="resume__data">2021</span>
+                                </div>
+    
+                                <p class="resume__description">
+                                    I am delighted to have reached the finals of the Project Development Sprint, a prestigious college-level hackathon. Through collaboration, creativity, and hard work, our team successfully developed an innovative project.
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">National level Hackathon</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+    
+                            <div class="resume__container">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Smart India Hackathon, Finalist</h3>
+                                    <span class="resume__data">2022</span>
+                                </div>
+    
+                                <p class="resume__description">
+                                    I am proud to have achieved the status of a finalist in the Smart India Hackathon, demonstrating my problem-solving skills, innovation, and ability to work in a team to tackle real-world challenges and develop impactful solutions.
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="resume__item"> 
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Mentoring more than 100 people</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+    
+                            <div class="resume__container">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Online and Offline</h3>
+                                    <span class="resume__data">2020-Present  </span>
+                                </div>
+    
+                                <p class="resume__description">
+                                    I take immense pride in mentoring over 100 individuals through both online and offline platforms. It's gratifying to share knowledge, offer guidance, and witness the growth and success of those I have mentored along their respective journeys.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+        
+
+       
+    </section>
+
+    <!--Services-->
+    <section class="Services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">What I do for you
+        </h2>
+
+        <div class="services__container container grid">
+            <div class="services__item">
+                <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+                <h3 class="services__title">UI/UX Design</h3>
+                <p class="services__description">Services with more than 2 year of experience. Providing quality work to client and companies</p>
+
+                <span class="services__no">01</span>
+            </div>
+        
+
+         
+            <div class="services__item">
+                <i class="fa-solid fa-laptop services__icon"></i>
+
+                <h3 class="services__title">Web Development</h3>
+                <p class="services__description">Services with more than 2 year of experience. Providing quality work to client and companies</p>
+
+                <span class="services__no">02</span>
+            </div>
+        
+
+          
+            <div class="services__item">
+                <i class="fa-solid fa-chart-area services__icon"></i>
+
+                <h3 class="services__title">Research & Analysis</h3>
+                <p class="services__description">Services with more than 1 year of experience. Providing quality work to client and companies</p>
+
+                <span class="services__no">03</span>
+            </div>
+        
+
+        
+            <div class="services__item">
+                <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+                <h3 class="services__title">Marketing Services</h3>
+                <p class="services__description">Services with more than 1 year of experience. Providing quality work to client and companies</p>
+
+                <span class="services__no">04</span>
+            </div>
+        
+
+         
+            <div class="services__item">
+                <i class="fa-solid fa-laptop services__icon"></i>
+
+                <h3 class="services__title">App Development</h3>
+                <p class="services__description">Services with more than 1 year of experience. Providing quality work to client and companies</p>
+
+                <span class="services__no">05</span>
+            </div>
+        
+
+          
+            <div class="services__item">
+                <i class="fa-solid fa-chart-area services__icon"></i>
+
+                <h3 class="services__title">Social Media Management</h3>
+                <p class="services__description">Services with more than 1 year of experience. Providing quality work to client and companies</p>
+
+                <span class="services__no">06</span>
+            </div>
+        </div>
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Knowledge">
+            Professional Skills
+        </h2>
+        
+
+        <div class="skills__container container grid">
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__no">85 %</span>
+                </div>
+
+                <p class="skills__description">
+                    Proficient in HTML with extensive hands-on experience, adept at crafting dynamic web pages, ensuring seamless functionality, and maintaining clean code.
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__no">75 %</span>
+                </div>
+
+                <p class="skills__description">
+                    Skilled in JavaScript with solid practical expertise, capable of developing interactive and responsive web applications while utilizing various libraries and frameworks
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__no">85 %</span>
+                </div>
+
+                <p class="skills__description">
+                    Highly skilled in Java, with strong practical knowledge and expertise, proficient in developing robust and scalable applications using object-oriented programming principles and frameworks.
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__no">75 %</span>
+                </div>
+
+                <p class="skills__description">
+                    Experienced in Python with substantial practical proficiency, adept at developing efficient scripts, data analysis, and building web applications using popular frameworks and libraries.
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">figma</h3>
+                    <span class="skills__no">90 %</span>
+                </div>
+
+                <p class="skills__description">
+                    Highly proficient in Figma, skilled in designing intuitive user interfaces, creating interactive prototypes, and collaborating with teams to deliver visually stunning and functional designs.
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__no">75 %</span>
+                </div>
+
+                <p class="skills__description">
+                    Skilled in React, proficient in building responsive and scalable user interfaces, leveraging component-based architecture and state management to deliver dynamic web applications.
+                </p>
+
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--work-->
+    <section class="work section" id="work">
+        <h2 class="section__title title-center" data-title="WORK WITH CLIENTS"></h2>
+        <div class="about__img2">
+            <img src="img/asset 2.png" alt="" class="about__img2">
+
+        <div class="work__container container grid">
+            <div class="work__item">
+                <h3 class="work__title">PROJECT COMPLETED</h3>
+                <br>
+                <span class="work__no">10</span>
+            </div>
+            <div class="work__item">
+                <h3 class="work__title">BLOGS</h3>
+                <br>
+                <span class="work__no">10</span>
+            </div>
+            <div class="work__item">
+                <h3 class="work__title">COUNTRIES</h3>
+                <br>
+                <span class="work__no">5</span>
+            </div>
+            <div class="work__item">
+                <h3 class="work__title">HAPPY CLIENTS</h3>
+                <br>
+                <span class="work__no">20</span>
+            </div>
+            
+    </section>
+
+    <!-----Portfolio-------->
+    <section class="project section" id="works">
+        <h2 class="section__title title-center" data-title="PROJECTS">Glimps of my work</h2>
+
+        <div class="project__container container grid">
+            <div class="project__card">
+                <img src="img/project-img-1.jpg" alt="" class="project__img"/>
+
+                <div class="project__details">
+                    <h3 class="project__title">Web design</h3>
+                    <span class="project__description">This is a short discription</span>
+                </div>
+            </div>
+
+            <div class="project__card">
+                <img src="img/project-img-4.jpg" alt="" class="project__img"/>
+
+                <div class="project__details">
+                    <h3 class="project__title">E-commerce</h3>
+                    <span class="project__description">This is a short discription</span>
+                </div>
+            </div>
+
+            <div class="project__card">
+                <img src="img/project-img-2.jpg" alt="" class="project__img"/>
+
+                <div class="project__details">
+                    <h3 class="project__title">App Development</h3>
+                    <span class="project__description">This is a short discription</span>
+                </div>
+            </div>
+
+            <div class="project__card">
+                <img src="img/project-img-3.jpg" alt="" class="project__img"/>
+
+                <div class="project__details">
+                    <h3 class="project__title">Analysics</h3>
+                    <span class="project__description">This is a short discription</span>
+                </div>
+            </div>
+
+            <div class="project__card">
+                <img src="img/project-img-5.jpg" alt="" class="project__img"/>
+
+                <div class="project__details">
+                    <h3 class="project__title">Marketing</h3>
+                    <span class="project__description">This is a short discription</span>
+                </div>
+            </div>
+
+            <div class="project__card">
+                <img src="img/project-img-6.jpg" alt="" class="project__img"/>
+
+                <div class="project__details">
+                    <h3 class="project__title">Web development</h3>
+                    <span class="project__description">This is a short discription</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--============testimonials===============================-->
+    <section class="testimonial section">
+        <h2 class="section__title title-center" data-title="Testimonials">
+            What My Client Say
+        </h2>
+        <div class="testimonials__container container grid">
+            <div class="testimonials__item">
+                <p class="testimonials__description">It was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can trust with a project from start to finish.</p>
+
+                <div class="testimonial__data">
+                    <img src="img/testimonial-1.jpg" alt="" class="testimonial__img">
+                    <div>
+                        <h3 class="testimonials__name">Tarun Agarwal</h3>
+                        <span class="testimonials__identity">Pune , India</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials__item">
+                <p class="testimonials__description">Working with him was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. </p>
+
+                <div class="testimonial__data">
+                    <img src="img/testimonial-2.jpg" alt="" class="testimonial__img">
+                    <div>
+                        <h3 class="testimonials__name">Vipin Rathore</h3>
+                        <span class="testimonials__identity">Noida , India</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--CONTACT-->
+    <section class="contact" id="contact">
+        <h2 class="section__title title-center" data-title="GET IN TOUCH">
+            Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+            <div class="contact__details">
+                <div class="contact__item">
+                    <i class="fa-solid fa-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__titile">Call Us</h3>
+                        <span class="contact__data">+91 8267852838</span>
+                    </div>
+                </div>
+
+                <div class="contact__item">
+                    <i class="fa-solid fa-envelope contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__titile">Email Us</h3>
+                        <span class="contact__data">chiragagarwal01122@gmail.com <br> chiragagarwal9897@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="contact__item">
+                    <i class="fa-solid fa-location-dot contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__titile">Address</h3>
+                        <span class="contact__data">Greater Noida, 201308</span>
+                    </div>
+                </div>
+            </div>
+
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control" />
+                        </div>
+                    
+
+                    
+                        <div class="form__input">
+                            <input 
+                            type="email" 
+                            placeholder="Email" 
+                            class="input__control" 
+                            />
+                        </div>
+                    </div>
+
+                    
+                        <div class="form__input">
+                            <input type="text" placeholder="Subject" class="input__control" />
+                        </div>
+                   
+
+                    
+                        <div class="form__input">
+                            <textarea 
+                                name="" 
+                                id="" 
+                                placeholder="Message" 
+                                cols="30" 
+                                rows="10" 
+                                class="input__control textarea"
+                                ></textarea>
+                        </div>
+
+                    <button class="btn contact__btn">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+ </main>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2023 Chirag Agarwal. All Rights Reserved</p>
+
+            <div class="footer__social-links">
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
